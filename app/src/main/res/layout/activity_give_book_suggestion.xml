@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD754D"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/txt_getGenre_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="BOOK"
+        android:textAlignment="center"
+        android:textColor="#fcfafa"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/txt_getGenre_subTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+
+        android:id="@+id/srch_giveGenre_searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_margin="20dp"
+        android:hint="Book name">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+</LinearLayout>

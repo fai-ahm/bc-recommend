@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recommend">
+
+    <EditText
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Book Name"
+        android:layout_weight="1"
+         />
+    <EditText
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="author name"
+        android:layout_weight="1"
+
+        />
+
+    <Button
+        android:id="@+id/button_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R Book"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/recommend_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="R movie"
+
+        />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_weight="1"
+        />
+</LinearLayout>

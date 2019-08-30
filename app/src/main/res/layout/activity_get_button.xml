@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+
+        android:id="@+id/btn_getCategory_book"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fcdc5c"
+        android:text="@string/btn_book"
+        android:textColor="#fc5524"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+
+        android:id="@+id/btn_getCategory_movie"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fceb9b"
+        android:text="@string/btn_movie"
+        android:textColor="#fc5524"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

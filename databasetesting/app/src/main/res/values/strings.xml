@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">databasetesting</string>
+    <string name="btn_get">get</string>
+    <string name="btn_give">give</string>
+    <string name="btn_book">book</string>
+    <string name="btn_movie">movie</string>
+</resources>
